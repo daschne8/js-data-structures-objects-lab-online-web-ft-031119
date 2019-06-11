@@ -1,6 +1,6 @@
 const driver = {}
 function updateDriverWithKeyAndValue(driver,key,value){
-  newDriver = driver
+  let newDriver = driver
   newDriver[key] = value
   return newDriver
 }
